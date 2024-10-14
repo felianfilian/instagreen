@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="title">Instagreen</h1>
+      <p>Posts {3 + 5}</p>
     </div>
   );
 }
