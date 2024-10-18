@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import Post from "./Post";
+import Post from "./Post/Post";
 import "./App.css";
 
 function App() {

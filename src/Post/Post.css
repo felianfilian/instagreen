@@ -1,0 +1,15 @@
+p {
+  margin: 0;
+}
+
+.post {
+  box-sizing: border-box;
+
+  margin: 12px 24px;
+  padding: 20px;
+  height: auto;
+
+  background-color: #f2fec6;
+  color: black;
+  font-size: 1.5em;
+}
