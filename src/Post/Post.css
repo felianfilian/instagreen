@@ -2,6 +2,14 @@ p {
   margin: 0;
 }
 
+.post-title {
+  font-size: 1.5em;
+}
+
+.post-text {
+  font-size: 1em;
+}
+
 .post {
   box-sizing: border-box;
 
@@ -13,5 +21,4 @@ p {
 
   background-color: #f2fec6;
   color: black;
-  font-size: 1.5em;
 }

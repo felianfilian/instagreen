@@ -4,7 +4,8 @@ import "./Post.css";
 function Post(props) {
   return (
     <div className="post">
-      <p>{props.title}</p>
+      <p className="post-title">{props.title}</p>
+      <p className="post-text">{props.text}</p>
     </div>
   );
 }
