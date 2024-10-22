@@ -1,10 +1,10 @@
 import React from "react";
 import "./Post.css";
 
-function Post() {
+function Post(props) {
   return (
     <div className="post">
-      <p>My first Post</p>
+      <p>{props.title}</p>
     </div>
   );
 }

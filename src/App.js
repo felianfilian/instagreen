@@ -8,7 +8,7 @@ function App() {
       <h1 className="title">Instagreen</h1>
       <p>Posts {3 + 5}</p>
       <div className="post-container">
-        <Post />
+        <Post title="hello world"/>
         <Post />
         <Post />
       </div>
