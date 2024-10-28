@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import Post from "./Post/Post";
 import "./App.css";
+import React, { useState } from "react";
 
 function App() {
   return (
