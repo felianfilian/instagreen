@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import Post from "./Post/Post";
+import Footer from "./Footer/Footer";
 import "./App.css";
 import React, { useState } from "react";
 
@@ -13,6 +14,7 @@ function App() {
         <Post title="sansibar" />
         <Post title="egypt" />
       </div>
+      <Footer></Footer>
     </div>
   );
 }
