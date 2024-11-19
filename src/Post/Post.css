@@ -19,6 +19,8 @@ p {
   max-width: 500px;
   height: auto;
 
+  border: 1px solid #424242;
+  border-radius: 16px;
   background-color: #f2fec6;
   color: black;
 }
