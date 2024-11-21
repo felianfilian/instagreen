@@ -7,7 +7,8 @@ function Post(props) {
       <p className="post-title">{props.title}</p>
       <p className="post-text">{props.text}</p>
       <div className="icon-bar">
-        <img src="./img/icons/comment.png"></img>
+        <img src={require("./../img/icons/comment.png")}></img>
+        <img src="../img/icons/comment.png"></img>
       </div>
     </div>
   );
