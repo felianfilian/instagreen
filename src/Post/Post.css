@@ -29,9 +29,15 @@ p {
   display: flex;
   justify-content: center;
   gap: 16px;
+
+  margin-top: 16px;
 }
 
 .icon-bar > img {
   width: auto;
   height: 24px;
+}
+
+.icon-bar > img:hover {
+  filter: drop-shadow(0 0 4px #000);
 }
