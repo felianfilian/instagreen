@@ -1,8 +1,8 @@
-import logo from "./logo.svg";
+//import logo from "./logo.svg";
 import Post from "./Post/Post";
 import Footer from "./Footer/Footer";
 import "./App.css";
-import React, { useState } from "react";
+//import React, { useState } from "react";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <div className="post-container">
         <Post title="hello world" text="this is my first test text" />
         <Post title="sansibar" />
-        <Post title="egypt" />
+        <Post title="egypt" text="my trip to egypt" />
       </div>
       <Footer></Footer>
     </div>
