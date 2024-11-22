@@ -30,3 +30,8 @@ p {
   justify-content: center;
   gap: 16px;
 }
+
+.icon-bar > img {
+  width: auto;
+  height: 24px;
+}
