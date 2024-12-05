@@ -6,6 +6,18 @@ function Post(props) {
     alert("toggle");
   };
 
+  const addLike = () => {
+    alert("LIKE");
+  };
+
+  const addFavorite = () => {
+    alert("LIKE");
+  };
+
+  const sharePost = () => {
+    alert("LIKE");
+  };
+
   return (
     <div className="post">
       <p className="post-title">{props.title}</p>
@@ -16,9 +28,21 @@ function Post(props) {
           src={require("./../img/icons/comment.png")}
           alt="Comment"
         ></img>
-        <img src={require("./../img/icons/heart.png")} alt="Like"></img>
-        <img src={require("./../img/icons/star.png")} alt="Favorite"></img>
-        <img src={require("./../img/icons/send.png")} alt="Share"></img>
+        <img
+          onClick={() => addLike()}
+          src={require("./../img/icons/heart.png")}
+          alt="Like"
+        ></img>
+        <img
+          onClick={() => addFavorite()}
+          src={require("./../img/icons/star.png")}
+          alt="Favorite"
+        ></img>
+        <img
+          onClick={() => sharePost()}
+          src={require("./../img/icons/send.png")}
+          alt="Share"
+        ></img>
       </div>
     </div>
   );
