@@ -1,5 +1,6 @@
 import React from "react";
 import "./Post.css";
+import heartPath from "./../img/icons/heart.png";
 
 function Post(props) {
   const toogleImage = () => {
@@ -28,11 +29,7 @@ function Post(props) {
           src={require("./../img/icons/comment.png")}
           alt="Comment"
         ></img>
-        <img
-          onClick={() => addLike()}
-          src={require("./../img/icons/heart.png")}
-          alt="Like"
-        ></img>
+        <img onClick={() => addLike()} src={heartPath} alt="Like"></img>
         <img
           onClick={() => addFavorite()}
           src={require("./../img/icons/star.png")}
